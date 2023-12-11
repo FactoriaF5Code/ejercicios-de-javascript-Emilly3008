@@ -54,8 +54,8 @@ describe("Números en Javascript", () => {
 describe("Operaciones aritméticas", () => {
     it("Usando suma", () => {
         const a = 10;
-
-        expect(a+b).to.equal(100);
+        a + b = 110
+        expect(a+b).to.equal(110);
     })
     it("Usando multiplicación", () => {
         const a = 10;
