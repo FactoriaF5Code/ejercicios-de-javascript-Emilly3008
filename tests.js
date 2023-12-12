@@ -97,6 +97,7 @@ describe('Comparaciones en Javascript', () => {
 
     it("usando !==", () => {
         const language = "Javascript";
+        const expresion = lenguage !== "javascript";
         //completa la asignación usando language y el comparador !==
 
         expect(expresion).to.equal(false)
@@ -116,7 +117,7 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result === "???").to.be.true;
+        expect(result === "OK").to.be.true;
     })
 
     it("comparando cadenas (strings)", () => {
@@ -132,7 +133,7 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result === "???").to.be.true;
+        expect(result === "pikachu").to.be.true;
     })
 
     it("Interpolación de cadenas (strings) (1)", () => {
@@ -149,7 +150,7 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result === "???").to.be.true;
+        expect(result === "pizza con pepperoni").to.be.true;
     })
 
     it("Interpolación de cadenas (strings) (2)", () => {
@@ -166,13 +167,14 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result === "???").to.be.true;
+        expect(result === "pizza con pepperoni").to.be.true;
     })
 })
 
 describe('Algebra booleana', () => {
     it("Usando el operador AND (&&)", () => {
         const a = true;
+        const b = true;
         //completa la asignación de b
 
         const expression = a && b;
@@ -180,6 +182,7 @@ describe('Algebra booleana', () => {
     })
     it("Usando el operador OR (||)", () => {
         const a = false;
+        const a folse;
         //completa la asignación de b
 
         const expression = a || b;
